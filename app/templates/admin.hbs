@@ -1,0 +1,14 @@
+<h1>Authorized personnel only!</h1>
+
+<ul>
+  {{#each model as |review|}}
+  <li>
+    {{review-tile review=review destroyReview="destroyReview"}}
+    <button {{action 'delete' review}}>Delete</button>
+  </li>
+  {{/each}}
+</ul>
+
+
+{{new-review saveReview="saveReview"}}
+{{#link-to 'index'}}Home{{/link-to}}

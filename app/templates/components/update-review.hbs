@@ -1,0 +1,35 @@
+{{#if updateReviewForm}}
+  <h1>Update {{review.title}}</h1>
+  <div>
+    <form>
+      <div class="form-group">
+        <label for="title">Title</label>
+        {{input value=title id="title"}}
+      </div>
+
+      <div class="form-group">
+        <label for="venue">Venue</label>
+        {{input value=venue id="venue"}}
+      </div>
+
+      <div class="form-group">
+        <label for="review">Review</label>
+        {{input value=review id="review"}}
+      </div>
+
+      <div class="form-group">
+        <label for="author">Author</label>
+        {{input value=author id="author"}}
+      </div>
+
+      <div class="form-group">
+        <label for="image">Image URL</label>
+        {{input value=image id="image"}}
+      </div>
+
+      <button {{action 'update' review}}>Save</button>
+    </form>
+  </div>
+  {{else}}
+  <button {{action 'updateReviewForm'}}>Update</button>
+  {{/if}}

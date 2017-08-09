@@ -1,19 +1,19 @@
 { "reviews" : [{
   "venue": "Bob's",
   "title": "How to eat a burger",
-  "review": "stuff and stuff",
+  "article": "stuff and stuff",
   "author": "Sue Bee",
   "image": "https://www.flipburgerboutique.com/content/02-menus/02-side.jpg"
 }, {
   "venue": "Tom's",
   "title": "How to eat a bagel",
-  "review": "stuff and stuff",
+  "article": "stuff and stuff",
   "author": "Sue Cee",
   "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQE6LMiQMmgqDT-S-JIXYEdkmmSoDPEc8__whnIM8lAYQS1ZUMe"
 }, {
   "venue": "Tim's",
   "title": "How to eat a blintz",
-  "review": "stuff and stuff",
+  "article": "stuff and stuff",
   "author": "Sue Sea",
   "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTR7bh63Ow9zBI_ikEh5SEY_pyAyDoz-bUQIY423VmjGiC3SsqU"
 }]

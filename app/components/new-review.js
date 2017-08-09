@@ -12,7 +12,7 @@ actions: {
       title: this.get('title') ? this.get('title') : "",
       venue: this.get('venue') ? this.get('venue') : "",
       author: this.get('author') ? this.get('author') : "",
-      review: this.get('review') ? this.get('review') : "",
+      article: this.get('article') ? this.get('article') : "",
       image: this.get('image') ? this.get('image') : "",
     };
     this.set('addNewReview', false);

@@ -4,12 +4,8 @@
   {{#each model as |review|}}
   <li>
     {{review-tile review=review destroyReview="destroyReview"}}
-    <button {{action 'delete' review}}>Delete</button>
-      {{update-review review=review update="update"}}
-      <!-- {{#if updateReviewForm}} -->
-    <!-- {{else}}
-      <button {{action 'updateReviewForm'}}>Update</button>
-    {{/if}} -->
+      <button {{action 'delete' review}}>Delete</button>
+    {{update-review review=review update="update"}}
   </li>
   {{/each}}
 </ul>

@@ -9,6 +9,6 @@
 <h2> All Posts </h2>
 <ul>
   {{#each review.posts as |post|}}
-    <li>{{post-tile post=post destroyPost="destroyPost"}}</li>
+    <li>{{post-tile post=post update="update" destroyPost="destroyPost"}}</li>
   {{/each}}
 </ul>

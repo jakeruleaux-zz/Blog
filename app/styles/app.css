@@ -84,5 +84,25 @@ li {
   font-weight: bold;
 }
 
+.photo {
+  margin: 10px;
+  width: 400px;
+  height: 200px;
+}
+.well{
+  width: 200px;
+  height: 100px;
+  margin: 50px 100px;
+}
+
+/*#image {
+  width: 50px;
+  height: 50px;
+}*/
+/*#test {
+  width: 200px;
+  height: 100px;
+  margin: 10px 10px;
+}*/
   /*margin-top: 0;
 }*/

@@ -10,7 +10,8 @@ export default Ember.Component.extend({
      var params = {
        writer: this.get('writer'),
        rating: this.get('rating'),
-       content: this.get('content')
+       content: this.get('content'),
+       review: this.get('review')
      };
      this.set('addNewPost', false);
      this.sendAction('savePost', params);

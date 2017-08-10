@@ -1,0 +1,14 @@
+<li>
+  {{review.venue}} <br>
+  {{review.title}} <br>
+  <img src="{{review.image}}"> <br>
+   By {{review.author}}<br>
+   {{review.article}}
+</li>
+
+<h2> All Posts </h2>
+<ul>
+  {{#each review.posts as |post|}}
+    <li>{{post-tile post=post destroyPost="destroyPost"}}</li>
+  {{/each}}
+</ul>

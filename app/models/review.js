@@ -5,5 +5,6 @@ export default DS.Model.extend({
   venue: DS.attr(),
   article: DS.attr(),
   author: DS.attr(),
-  image: DS.attr()
+  image: DS.attr(),
+  posts: DS.hasMany('post', { async: true })
 });

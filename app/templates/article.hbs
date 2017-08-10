@@ -1,7 +1,17 @@
 <li>
-  {{model.venue}} <br>
-  {{model.title}} <br>
-  <img src="{{model.image}}"> <br>
-   By {{model.author}}
-   {{model.article}}
+  {{model.reviews.venue}} <br>
+  {{model.reviews.title}} <br>
+  <img src="{{model.reviews.image}}"> <br>
+   By {{model.reviews.author}}
+   {{model.reviews.article}}
 </li>
+
+<h2> All Posts </h2>
+
+<ul>
+  {{#each model.posts as |post|}}
+    <li>{{post.rating}} - {{post.content}} - by {{post.writer}}</li>
+  {{/each}}
+</ul>
+
+{{new-post savePost="savePost"}}

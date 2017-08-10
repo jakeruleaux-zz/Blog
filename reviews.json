@@ -16,5 +16,15 @@
   "article": "stuff and stuff",
   "author": "Sue Sea",
   "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTR7bh63Ow9zBI_ikEh5SEY_pyAyDoz-bUQIY423VmjGiC3SsqU"
-}]
+}],
+
+"posts": [{
+    "writer": "Andrea",
+    "rating": 1,
+    "content": "Did not fall down."
+  }, {
+    "writer": "Alex",
+    "rating": 5,
+    "content": "Nice view of the volcano!"
+  }]
 }
